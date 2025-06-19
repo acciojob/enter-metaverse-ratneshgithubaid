@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#status {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#enterBtn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#enterBtn:hover {
+    background-color: #3700b3;
+}
+
+h1 {
+    color: #6200ea;
+    font-size: 2rem;
+    margin: 0;
+}
